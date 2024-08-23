@@ -23,6 +23,12 @@ private String material;
 	private double cuttingTime;
 	private double nonProdTime;
 	private double totalTime;
+	
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
 	public void setMachine(String machine) {
 		this.machine = machine;
 	}
